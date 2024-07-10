@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waleed Nabeel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            class="toggle__checkbox"
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            <span class="bio__hey">Hey There ! </span>I'm A Creative Front-End
+            Developer
+          </h1>
+          <p class="bio__into">
+            My name is <span class="bio__name">Waleed Nabeel</span>, a
+            Passionate Computer Science student at
+            <a
+              href="https://www.aou.edu.eg/Pages/default.aspx"
+              class="bio__university"
+              >AOU.edu.eg </a
+            >, skilled in front-end development with expertise in,
+            <span class="bio__languages--html languages">HTML</span>
+            <span class="bio__languages--css languages">CSS</span>
+            <span class="bio__languages--js languages">JS</span>.
+          </p>
+
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="Profile.pdf" class="bio__links find-out-link" target="_blank"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__picture-content">
+          <img
+            class="bio__picture"
+            src="/images/pic.png"
+            alt="personal picture for Waleed Nabeel"
+          />
+        </div>
+      </section>
+
+      <section class="skills section section--with-background" id="skills">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React library testing</h2>
+            <span class="skills_years">8 years</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video controls class="media__video" poster="/images/thumbnail.png">
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">MY FEATURED <br />PROJECTS</h2>
+        <div class="projects__main">
+          <img
+            class="projects__image"
+            src="/images/project-1.jpg"
+            alt="Quran tab project"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Quran Tab <br />Extension</h3>
+            <p class="projects__info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+              nesciunt rem similique voluptate dicta ad aspernatur, laborum
+              omnis eligendi? Ea placeat amet est facere maiores unde doloribus
+              magnam nisi quibusdam.
+            </p>
+
+            <a href="#" class="projects__link">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__link">Edge Link</a>
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Quran Tab <br />Extension</h3>
+            <p class="projects__info">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
+              nesciunt rem similique voluptate dicta ad aspernatur, laborum
+              omnis eligendi? Ea placeat amet est facere maiores unde doloribus
+              magnam nisi quibusdam.
+            </p>
+
+            <a href="#" class="projects__link">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__link">Edge Link</a>
+          </div>
+          <img
+            class="projects__image"
+            src="/images/project-1.jpg"
+            alt="Quran tab project"
+          />
+        </div>
+      </section>
+
+      <section class="clients section section--with-background" id="clients">
+        <h2 class="h2-heading">
+          WHAT MY <br />
+          CLIENTS SAYS.
+        </h2>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              natus illum tenetur molestias voluptatem totam nostrum. Enim, qui
+              voluptatum repudiandae nemo possimus aliquid modi omnis iste.
+              Obcaecati unde sed accusamus.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              tenetur sed tempore repellat molestias. Vel rem tempora at
+              praesentium cumque id odio nostrum sunt dolores. Nisi suscipit
+              temporibus laudantium alias.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+              accusamus sequi maiores, dolorum soluta, velit nobis illum ipsum
+              dicta totam debitis facilis enim! Eos nesciunt, hic corporis
+              maxime expedita provident?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione id
+            nobis beatae facere ipsa sint corporis eveniet architecto!
+          </p>
+          <a class="contact__email" href="mailto:walled-sebae@hotmail.com"
+            >Walled-sebae@hotmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/abokhaled.se/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="/images/social/facebook.svg" alt="Icon of facebook" />
+            </a>
+            <a
+              href="https://x.com/waleed_sebae"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="/images/social/twitter.svg" alt="Icon of Twitter" />
+            </a>
+            <a href="#" class="contact__social" target="_blank">
+              <img src="/images/social/youtube.svg" alt="Icon of youtube" />
+            </a>
+            <a
+              href="https://github.com/walled99"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="/images/social/github.svg" alt="Icon of Github" />
+            </a>
+            <a href="#" class="contact__social" target="_blank">
+              <img src="/images/social/instagram.svg" alt="Icon of Instgram" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/waled-nabeel/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="/images/social/LinkedIn.svg" alt="Icon of LinkedIn" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__fromContent">
+          <h2 class="h2-heading">
+            LET’S WORK
+            <br />
+            TOGETHER!
+          </h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                name="fullName"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                name="telephone"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&#169; 2024 by Waleed Nabeel</footer>
+    </div>
+  </body>
+</html>

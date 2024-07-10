@@ -1,0 +1,112 @@
+@import "./mixins";
+
+.bio {
+  @include twoColumns(7.4rem, 0);
+}
+
+.bio__heading {
+  font-size: var(--font-size-70);
+  font-weight: var(--font-weight-bold);
+}
+
+.bio__hey {
+  display: block;
+}
+
+.bio__into {
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-20);
+  margin: 3rem 0 8rem;
+}
+
+.bio__name {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.bio__university {
+  color: var(--color-green);
+}
+
+.bio__languages--html {
+  background-color: rgb(228, 77, 38);
+  color: white;
+}
+
+.bio__languages--css {
+  background-color: rgb(38, 77, 228);
+  color: white;
+}
+
+.bio__languages--js {
+  background-color: rgb(247, 223, 30);
+  color: rgb(0, 0, 0);
+}
+
+.languages {
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(51, 60, 62, 0.316);
+}
+
+.bio__links {
+  font-size: 2.4rem;
+  font-weight: var(--font-weight-semi-bold);
+  text-decoration: none;
+}
+
+.say-hi-link {
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 0.7rem 4.7rem;
+}
+
+.find-out-link {
+  padding: 0.7rem 0;
+  margin-inline-start: 1.4rem;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0.5rem);
+  }
+
+  35% {
+    transform: translateY(-0.5rem);
+  }
+
+  75% {
+    transform: translateY(0rem);
+  }
+
+  100% {
+    transform: translateY(0rem);
+  }
+}
+
+.bio__arrow {
+  display: inline-block;
+  animation: jump 1.2s infinite alternate ease-in;
+}
+
+.bio__picture-content {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-self: end;
+}
+
+.bio__picture-content::before {
+  content: "";
+  background-color: var(--color-box-img);
+  border-radius: 1.8rem;
+  width: 100%;
+  height: 40rem;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 2.17543px 8.7017px 38.0699px rgba(0, 0, 0, 0.15);
+}
+
+.bio__picture {
+  width: 42.7rem;
+}
